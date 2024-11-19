@@ -1,0 +1,174 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #163152;
+    background-color: #FDFDFF;
+}
+
+.nav-item a {
+    font-size: 14px;
+    line-height: 18px;
+    color: #163152;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.lead h1 {
+    font-size: 44px;
+    font-weight: normal;
+    line-height: 60px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+.join-club h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #00c6bd;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+}
+
+.join-club .Date {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.excursion h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #00c6bd;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+}
+
+.excursion .Date {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+
+.сontacts {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.сontacts h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #00c6bd;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+}
+
+.сontacts h3 {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.contacts-item a {
+    color: #163152;
+    text-decoration: none;
+}
+
+.contacts-item address {
+font-style: normal;
+}
+
+.footer-list {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.footer-list h2 {
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+.footer-list a {
+    color: #163152;
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.main-footer a {
+    color: #163152;
+    text-decoration: none;
+}
+
+.news {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.news h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: #00c6bd;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+}
+
+.news h3 {
+    font-size: 22px;
+    line-height: 26px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.news h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.winner figcaption {
+    font-size: 16px;
+    line-height: 19px;
+    color: #8693A4;
+}
+
+.winners-quote {
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+
+.post-meta a {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #163152;
+}
+
+.post-meta time {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: normal;
+    color: #8693A4;
+}
