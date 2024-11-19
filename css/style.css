@@ -4,6 +4,8 @@ body {
     line-height: 24px;
     color: #163152;
     background-color: #FDFDFF;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-item a {
@@ -20,6 +22,9 @@ body {
     line-height: 60px;
     font-style: italic;
     text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
 }
 
 
@@ -171,4 +176,166 @@ font-style: normal;
     line-height: 19px;
     font-weight: normal;
     color: #8693A4;
+}
+
+.main-header {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 20px 55px;
+    margin-bottom: 40px;
+}
+
+.header_div {
+    display: flex;
+}
+
+.main-logo {
+    margin-right: auto;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-navigation {
+    width: 559px;
+}
+
+.login {
+    margin-left: 40px;
+    width: 36px;
+}
+
+main {
+    width: 1170px;
+    padding: 0 55px;
+    margin: 0 auto;
+}
+
+.lead {
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.join-club {
+    display: flex;
+    width: 1030px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.join-club-container {
+    margin-right: 30px;
+}
+
+.join-club-container h2 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+.date {
+    margin-bottom: 10px;
+}
+
+.excursion {
+    display: flex;
+    width: 1030px;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+    margin-bottom: 120px;
+}
+
+.excursion-container {
+    margin-left: 30px;
+}
+
+.excursion-container h2 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+.news {
+    width: 770px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.winner {
+    margin: 0;
+    padding: 0;
+}
+
+.news h2 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 55px;
+}
+
+.сontacts {
+    display: flex;
+    width: 1170px;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+}
+
+.map {
+    margin-right: 100px;
+}
+
+.contacts-container h2 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 35px;
+}
+
+.contacts-container {
+    width: 400px;
+}
+
+.main-footer {
+    margin: 0 auto;
+    margin-top: 120px;
+    padding: 60px 0;
+}
+
+.main-footer-container {
+    width: 1170px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 55px;
+}
+
+.copyright-container {
+    margin-right: 125px;
+}
+
+.footer-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-navigation-topics {
+    width: 165px;
+    margin-right: 70px;
+}
+.footer-navigation-topics:last-child {
+    margin-right: 0;
+}
+
+.list-element {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-item h2 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
 }
