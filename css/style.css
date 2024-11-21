@@ -363,15 +363,24 @@ main {
 
 .photo-gallery {
     display: flex;
+    align-items: flex-start;
+}
+
+.miniature-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .select-photo {
     margin-right: 30px;
+    width: 970px;
 }
 
 
 .list-photo {
     margin-bottom: 30px;
+    width: 170px;
 }
 
 .list-photo:last-child {
