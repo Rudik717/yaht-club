@@ -593,3 +593,84 @@ figcaption {
 .social-item a:active {
     opacity: 0.3;
 }
+
+.rent {
+    margin-bottom: 120px;
+}
+
+.rent h2{
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0;
+    margin-bottom: 55px;
+    text-decoration: underline;
+    text-decoration-color: #00c6bd;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 15px;
+    text-underline-position: under;
+}
+
+.rent-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.rent-item {
+    display: block;
+    width: 310px;
+    padding: 30px;
+    box-shadow: 0px 4px 30px 0px rgba(22, 49, 82, 0.12);
+}
+
+.rent-item img {
+    display: block;
+    margin-bottom: 21px;
+}
+
+.rent-item h3 {
+    font-size: 20px;
+    line-height: 23px;
+    margin: 0;
+    margin-bottom: 18px;
+
+}
+
+.rent-item p {
+    font-size: 14px;
+}
+
+.price p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.yacht-list {
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 29px;
+    padding: 0;
+    padding-left: 18px;
+    list-style-type: disc;
+    font-size: 14px;
+}
+
+.yacht-item {
+    line-height: 19px;
+    margin-bottom: 4px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price p {
+    margin: 0;
+    padding: 0; 
+}
