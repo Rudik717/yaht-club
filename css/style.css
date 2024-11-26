@@ -25,6 +25,7 @@ body {
     margin: 0;
     padding: 0;
     margin-bottom: 40px;
+    margin-left: 70px;
 }
 
 
@@ -82,11 +83,15 @@ body {
     font-size: 16px;
     line-height: 22px;
     font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 
 .contacts-item a {
     color: #163152;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
 .contacts-item address {
@@ -160,6 +165,13 @@ font-style: normal;
     font-size: 26px;
     line-height: 36px;
     font-weight: bold;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    margin-top: 36px;
+    margin-bottom: 30px;
+    width: 750px;
+    border-left: 2px solid #00C6BD;
 }
 
 
@@ -187,6 +199,7 @@ font-style: normal;
 
 .header_div {
     display: flex;
+    align-items: center;
 }
 
 .main-logo {
@@ -197,7 +210,19 @@ font-style: normal;
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
+.nav-item a:hover {
+    color: rgba(22, 49, 82, 0.5);   
+}
+
+.nav-item a:active {
+    color: rgba(22, 49, 82, 0.3);   
+}
+
 
 .site-navigation {
     width: 559px;
@@ -206,6 +231,20 @@ font-style: normal;
 .login {
     margin-left: 40px;
     width: 36px;
+    height: 36px;
+    border: 1px solid rgba(0, 198, 189, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.login:hover {
+    opacity: 0.5;
+}
+
+.login:active {
+    opacity: 0.3;
 }
 
 main {
@@ -250,6 +289,7 @@ main {
 
 .excursion-container {
     margin-left: 30px;
+    text-align: right;
 }
 
 .excursion-container h2 {
@@ -269,17 +309,55 @@ main {
     padding: 0;
 }
 
+.winner img {
+    margin-bottom: 17px;
+    display: block;
+}
+
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
 .news h2 {
     margin: 0;
     padding: 0;
     margin-bottom: 55px;
 }
 
+.news h3 {
+    margin-top: 33px;
+    margin-bottom: 27px;
+}
+
+.news h4 {
+    margin-top: 24px;
+    margin-bottom: 15px;
+}
+
+.news p {
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.teams-list {
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    padding-left: 19px;
+}
+
+.teams-item {
+    margin-bottom: 8px;
+}
+
+
 .сontacts {
     display: flex;
     width: 1170px;
     margin: 0 auto;
     flex-direction: row-reverse;
+    align-items: center;
 }
 
 .map {
@@ -300,6 +378,7 @@ main {
     margin: 0 auto;
     margin-top: 120px;
     padding: 60px 0;
+    border-top: 1px solid rgba(22, 49, 82, 0.1);
 }
 
 .main-footer-container {
@@ -372,6 +451,29 @@ main {
     list-style: none;
 }
 
+.list-photo a {
+    position: relative;
+    display: block;
+}
+
+.list-photo a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(253, 253, 255, 0.5);
+}
+
+.list-photo a.active-photo::before {
+    background-color: transparent;
+}
+
+.list-photo a img {
+    display: block;
+}
+
 .select-photo {
     margin-right: 30px;
     width: 970px;
@@ -385,4 +487,109 @@ main {
 
 .list-photo:last-child {
     margin-bottom: 0;
+}
+
+.author {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author-container {
+    display: flex;
+}
+
+.author-container img {
+    margin-right: 15px;
+    width: 60px;
+    height: 60px;
+    padding-top: 5px;
+}
+
+.post-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.contacts-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contacts-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.social-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.social-item a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #00C6BD;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.footer-logo img {
+    display: block;
+}
+
+.company-item,
+.yacht-club-item,
+.services-item,
+.regattas-item {
+    margin-bottom: 10px;
+}
+
+.company-item:last-child,
+.yacht-club-item:last-child,
+.services-item:last-child,
+.regattas-item:last-child {
+    margin-bottom: 0;
+}
+
+.company-item a:hover,
+.yacht-club-item a:hover,
+.services-item a:hover,
+.regattas-item a:hover,
+.contacts-item a:hover,
+.post-meta a:hover {
+    color: rgba(22, 49, 82, 0.5);
+}
+
+.company-item a:active,
+.yacht-club-item a:active,
+.services-item a:active,
+.regattas-item a:active,
+.contacts-item a:active,
+.post-meta a:active {
+    color: rgba(22, 49, 82, 0.3);
+}
+
+.post-share:hover,
+.social-item a:hover {
+    opacity: 0.5;
+}
+
+.post-share:active,
+.social-item a:active {
+    opacity: 0.3;
 }
